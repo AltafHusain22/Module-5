@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+
+}
+
+/* Navigation css style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+    margin: 51px 226px;
+}
+
+nav ul {
+    display: flex;
+    margin: 51px 226px;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+
+}
+
+nav li a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #474747;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    margin-left: 60px;
+    padding: 10px 35px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+/* hero section styles or bannr section */
