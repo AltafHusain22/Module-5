@@ -130,6 +130,7 @@ main {
     line-height: 48px;
     text-align: center;
     color: #181818;
+    margin-bottom: 50px;
 }
 
 .section-description {
@@ -168,4 +169,87 @@ main {
     text-align: center;
     color: #474747;
 }
+
 /* skills section style */
+
+.skill-container {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-description {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.skill-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+    margin-top: 10px;
+}
+
+/* Resume */
+
+.resume-content-area {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+
+.Resume-section {
+    margin-top: 100px;
+}
+
+.education-section-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.section-sub-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+
+}
+
+.section-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-area-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+    margin-bottom: 20px;
+
+}
