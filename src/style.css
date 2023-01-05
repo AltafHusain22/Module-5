@@ -55,8 +55,22 @@ nav li a {
     color: #FD6E0A;
 }
 
+.hire-btn {
+    margin-top: 15px;
+    padding: 10px 35px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
 .btn-primary {
-    margin-left: 60px;
+    margin-top: 15px;
     padding: 10px 35px;
     background: #FD6E0A;
     border-radius: 5px;
@@ -67,6 +81,20 @@ nav li a {
     font-size: 20px;
     color: #FFFFFF;
 
+
+}
+
+.btn-secondary {
+    margin-top: 15px;
+    padding: 10px 35px;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    background: #fff;
 }
 
 /* hero section styles or bannr section */
@@ -263,10 +291,21 @@ main {
 .form-area {
     display: flex;
     margin-top: 100px;
-    background: #FFF8F3;
     padding: 40px;
+    gap: 50px;
+    width: 100%;
 }
 
-.form{
+.form {
     background: #FFF8F3;
 }
+
+input, textarea {
+    padding: 15px;
+    width: 100%;
+    margin-top: 10px;
+    border: 0px;
+    background: #fff;
+}
+
+    {}
