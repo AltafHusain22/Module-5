@@ -254,6 +254,19 @@ main {
 
 }
 
-.button-resume{
+.button-resume {
     text-align: center;
+}
+
+/* form area */
+
+.form-area {
+    display: flex;
+    margin-top: 100px;
+    background: #FFF8F3;
+    padding: 40px;
+}
+
+.form{
+    background: #FFF8F3;
 }
