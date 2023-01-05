@@ -5,6 +5,14 @@
 
 /* Navigation css style */
 
+.header {
+    background: #FFF8F3;
+    background-image: url(../Assets/images/header_bg.png), url(../Assets/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -62,3 +70,101 @@ nav li a {
 }
 
 /* hero section styles or bannr section */
+.banner-area {
+    display: flex;
+    align-items: center;
+    margin: 0px 180px;
+}
+
+.banner-sub-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+}
+
+.banner-main-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #181818;
+}
+
+.banner-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.banner-image img {
+    width: 500px;
+    height: 576px;
+
+}
+
+/* main content styles */
+
+main {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+}
+
+.section-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+}
+
+.infoboxarea {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.info-title {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #757575;
+    margin-top: 20px;
+}
+
+.info-description {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #474747;
+}
